@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <h1>Formulario de Registro</h1>
+    <form action="/process" method="post">
+        <div>
+            <label>Nombre:*</label>
+            <input type="text" name="name" 
+            placeholder="Tu nombre.." >
+        </div>
+        <div>
+            <label>Apellido:*</label>
+            <input type="text" name="last name" 
+            placeholder="Tu apellido.." >
+        </div>
+        <div>
+            <label>Gmail:*</label>
+            <input type="text" name="gmail" 
+            placeholder="Gmail.." >
+        </div>
+        <div>
+            <label>Contraseña:*</label>
+            <input type="text" name="password" 
+            placeholder="Tu contraseña.." >
+        </div>
+        <div>
+            <label>Confirmar contraseña:*</label>
+            <input type="text" name="confirm password" 
+            placeholder="Confirma tu contraseña.." >
+        </div>
+        <div>
+            <label>Fecha de Nacimiento:*</label>
+            <input type="date" name="dob">
+        </div>
+        <div>
+            <label>Género: </label>
+            <input type="radio" name="font" value="bold" id="bold">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="font" value="normal" id="normal">
+            <label for="femenino">Femenino</label>
+        </div>
+        <div>
+            <label>Una breve descripción sobre ti:</label>
+            <textarea name="comment" cols="100" rows="3"></textarea>
+        </div>
+        <div>
+            <label>Lenguaje de Programación favorito: </label>
+            <select name="lenguajes">
+                <option>Java</option>
+                <option>Ruby</option>
+                <option>html</option>
+                <option>Python</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="offers" 
+            id="offers" checked >
+            <label for="offers">Me gustaría 
+            recibir ofertas por correo!</label>
+        </div>
+        <input type="submit" value="Crear Cuenta">
+    </form>
+</html>
