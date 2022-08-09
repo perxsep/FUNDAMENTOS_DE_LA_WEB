@@ -1,0 +1,32 @@
+* {
+    padding: 10px;
+}
+.barra1 {
+    margin: 10px;
+    height: 200px;
+    width: 1840px;
+    color: #00b3c0;
+    background-color: #523eff;
+}
+.barra2 {
+    margin: 10px;
+    height: 200px;
+    width: 1840px;
+    color: #00b3c0;
+    background-color: #6f1592;
+}
+.barra3 {
+    margin: 10px;
+    height: 200px;
+    width: 1840px;
+    color: #00b3c0;
+    background-color: #08db60;
+}
+h1 {
+    text-align: center;
+}
+.img1 {
+    height: 200px;
+    width: 200px;
+    
+}
