@@ -1,0 +1,37 @@
+.nav {
+    color: #ffffff;
+    background-color: #6d6d6d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.active0 {
+    background-color: #6d6d6d;
+    border: 0px solid #74d6dd;
+    height: 40px;
+    width: 180px;
+}
+.active1 {
+    background-color: #6d6d6d;
+    border: 0px solid #74d6dd;
+    height: 40px;
+    width: 180px;
+}
+.active2 {
+    background-color: #6d6d6d;
+    border: 0px solid #74d6dd;
+    height: 40px;
+    width: 180px;
+}
+.btn {
+    background-color: rgb(0, 119, 255);
+    margin: 20px 20px 20px 20px ;
+    height: 40px;
+    width: 180px;
+    border: 2px solid #000000;
+    color: #ffffff;
+    box-shadow: 4px 5px 5px black;
+}
+.nav-title {
+    margin: 25px;
+}
