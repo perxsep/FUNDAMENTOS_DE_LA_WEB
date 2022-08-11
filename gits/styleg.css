@@ -1,24 +1,25 @@
 * {
     padding: 10px;
+    
 }
 .barra1 {
     margin: 10px;
     height: 200px;
-    width: 1840px;
+    width: 900px;
     color: #00b3c0;
     background-color: #523eff;
 }
 .barra2 {
     margin: 10px;
     height: 200px;
-    width: 1840px;
+    width: 900px;
     color: #00b3c0;
     background-color: #6f1592;
 }
 .barra3 {
     margin: 10px;
     height: 200px;
-    width: 1840px;
+    width: 900px;
     color: #00b3c0;
     background-color: #08db60;
 }
@@ -28,5 +29,60 @@ h1 {
 .img1 {
     height: 200px;
     width: 200px;
-    
+    position: absolute;
+    top: 130px;
+    left: 50px;        
+}
+.img2 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 130px;
+    left: 350px;        
+}
+.img3 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 130px;
+    left: 700px;        
+}
+.img4 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 360px;
+    left: 500px;        
+}
+.img5 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 360px;
+    left: 200px;        
+}
+.img6 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 585px;
+    left: 50px;        
+}
+.img7 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 585px;
+    left: 350px;        
+}
+.img8 {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 585px;
+    left: 700px;        
+}
+footer {
+    text-align: center;
+
 }
