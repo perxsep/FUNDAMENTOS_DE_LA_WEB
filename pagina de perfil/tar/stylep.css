@@ -1,33 +1,32 @@
-
-
-.nombre{
-    font-size:x-large;
-    margin-top: 40px;
-}
 .nav {
     color: #ffffff;
-    background-color: #6d6d6d;
+    background-color: #000000;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
+    width: 1000px;
+    height: 60px;
 }
 .active0 {
-    background-color: #6d6d6d;
+    background-color: #000000;
     border: 0px solid #74d6dd;
     height: 40px;
     width: 180px;
+    color: white;
 }
 .active1 {
-    background-color: #6d6d6d;
+    background-color: #000000;
     border: 0px solid #74d6dd;
     height: 40px;
     width: 180px;
+    color: white;
 }
 .active2 {
-    background-color: #6d6d6d;
+    background-color: #000000;
     border: 0px solid #74d6dd;
     height: 40px;
     width: 180px;
+    color: white;
 }
 .btn {
     background-color: rgb(0, 119, 255);
@@ -36,8 +35,100 @@
     width: 180px;
     border: 2px solid #000000;
     color: #ffffff;
+    box-shadow: 4px 5px 1px rgb(128, 128, 128);
+}
+.cas{
+    margin: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+.tarjeta{
+    margin: 20px;
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    box-shadow: 1px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.conte1{
+    flex: 1;
+    background-color: skyblue;
+}
+.conte2{
+    flex: 3;
+    background-color: white;
+    padding: 30px;
+}
+.icon{
+    top: 50px;
+    left: 30px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
     box-shadow: 4px 5px 5px black;
 }
-.nav-title {
-    margin: 25px;
+.conte2  div {
+    padding: 5px;
+    font-weight: bold;
+}
+.nombre{
+    font-size:x-large;
+    margin-top: 40px;
+}
+.box1 {
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 1px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.box2 {
+    margin: 20px;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    box-shadow: 1px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.box3 {
+    top: 5px;
+    right: 170px;
+    margin: 170px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 1px 5px 5px black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+.rap {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.conte11{
+    flex: 1;
+    background-color: rgb(87, 70, 70);
+}
+.conte22{
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+}
+.conte22 div {
+    padding: 1px;
+    font-weight: bolder;
 }
