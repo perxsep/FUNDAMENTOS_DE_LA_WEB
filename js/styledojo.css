@@ -50,6 +50,11 @@
     position: absolute;
     overflow: hidden;
 }
+ 
+.columns p {
+    margin-left: 5%;
+    width: 20%;
+}
 
 .box-1 {
     width: 100%;
@@ -61,6 +66,7 @@
 
 .box-1 h1 {
     margin-left: 5%;
+    width: 20%;
 }
 
 .box-2 {
@@ -73,11 +79,12 @@
 
 .box-2 h1 {
     margin-left: 5%;
+    width: 20%;
 }
 
 .box-3 {
-    width: 19%;
-    height: 300px;
+    width: 16%;
+    height: 17%;
     margin-top: 9%;
     margin-left: 14px;
     border: 3px solid #000000;
@@ -87,6 +94,7 @@
 
 .box-3 h1 {
     margin-left: 5%;
+    width: 100%;
 }
 
 .column-1 {
@@ -98,6 +106,30 @@
 }
 
 .columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.columns button {
+    margin-left: 5%;
+}
+
+.text-b2 {
+    width: 200%;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 12%;
+}
+
+.text-b1 {
+    width: 60%;
+    height: 50px;
+    margin-top: 12%;
+    margin-left: 6%;
+    position: absolute;
+}
+
+.t-b {
     display: flex;
     flex-direction: row;
 }
