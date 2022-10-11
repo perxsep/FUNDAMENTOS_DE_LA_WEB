@@ -1,0 +1,1 @@
+var gato document.querySelector
