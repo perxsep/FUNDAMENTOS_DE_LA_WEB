@@ -8,8 +8,7 @@
 }
 
 .header {
-    display: flex;
-    justify-content: center;
+    margin-left: 30%;
 }
 
 .content {
@@ -35,7 +34,7 @@
     background-color: #000000;
     display: flex;
     align-items: flex-start;
-    width: 40%;
+    width: 755px;
     height: 100%
 }
 
@@ -89,4 +88,4 @@
     background-color: rgb(230, 209, 21);
     border: 2px solid #000000;
     color: #000000;
-}
+    margin-left: 170px;
